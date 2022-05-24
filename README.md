@@ -1,4 +1,4 @@
-## XML to JSON Converter :
+## XML to JSON Converter (tanpa Structure):
 ### dari
 `<?xml version=1.0 encoding=UTF-8 standalone=no?>`\
 `<Root>`\
@@ -36,7 +36,7 @@
 		`"TagDateTime": "2019-08-06T22:10:11",`\
 		`"TagValue": "12.45"`\
 	`}`\
-`]`\
+`]`
 
 ### dari
 `<?xml version=1.0 encoding=UTF-8 standalone=no?>`\
@@ -52,4 +52,4 @@
 	`"TagName": "Z123",`\
 	`"TagDateTime": "2019-08-06T22:10:11",`\
 	`"TagValue": "12.45"`\
-`}`\
+`}`
