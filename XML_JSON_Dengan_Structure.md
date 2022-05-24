@@ -47,3 +47,58 @@
 }
 ```
 ### JSON to XML Converter (dengan Structure):
+## dari
+```
+{
+	"Nama": "Mohamad Jaelani",
+	"Nomer": "QIS/MNT/2021/00716",
+	"Pendor": [
+		{
+			"Kode": "29578"
+		}
+	],
+	"Tipe": "Ting"
+}
+```
+## dengan/tanpa Structure (Structure sama dengan atas) Menjadi
+```
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<Nama>Mohamad Jaelani</Nama>
+	<Nomer>QIS/MNT/2021/00716</Nomer>
+	<Pendor>
+		<Kode>29578</Kode>
+	</Pendor>
+	<Tipe>Ting</Tipe>
+</Root>
+```
+## dari
+```
+{
+	"Nama": "Mohamad Jaelani",
+	"Nomer": "QIS/MNT/2021/00716",
+	"Pendor": [
+		{
+			"Kode": "29578"
+		},
+		{
+			"Kode": "29578"
+		}
+	],
+	"Tipe": "Ting"
+}
+## dengan/tanpa Structure (Structure sama dengan atas) Menjadi
+```
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<Nama>Mohamad Jaelani</Nama>
+	<Nomer>QIS/MNT/2021/00716</Nomer>
+	<Pendor>
+		<Kode>29578</Kode>
+	</Pendor>
+	<Pendor>
+		<Kode>29578</Kode>
+	</Pendor>
+	<Tipe>Ting</Tipe>
+</Root>
+```
